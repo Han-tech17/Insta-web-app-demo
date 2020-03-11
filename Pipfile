@@ -6,8 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-gunicorn = "*"
 whitenoise = "*"
+django = "*"
+gunicorn = "*"
+django-imagekit = "*"
+django-annoying = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"

@@ -46,6 +46,8 @@ class ExploreView(LoginRequiredMixin, ListView):
 
 
 
+
+
 class UserDetailView(DetailView):
     model = InstaUser
     template_name = 'user_detail.html'
